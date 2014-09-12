@@ -1,0 +1,188 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Getting more out of your logs
+
+    // build:css styles/styles.css
+    //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+    link(rel='stylesheet', type='text/css', href='styles/style.css')
+    //link(rel='stylesheet', type='text/css', href='bower_components/bespoke-fx/src/main.css')
+    //link(rel='stylesheet', type='text/css', href='bower_components/bespoke-fx/src/animations.css')
+    // endbuild
+
+  body
+
+    article
+
+      section(data-bespoke-hash='title', class="title")
+        h1 DevOps
+        h2 Level up your team
+
+      //section(data-bespoke-hash='about-me', data-bespoke-fx-transition="drop", data-bespoke-fx-direction="vertical")
+      section(data-bespoke-hash='about-me', class="intro")
+        h1(class="outline") Hi! I'm Howard
+        h2(class='flipped') You may know me as @tizzo
+
+      section(class="zivtech")
+        img(src="images/zivtech.png")
+
+      section(class="red")
+        h1 DevOps
+
+      section(class="red")
+        h1 Is not...
+
+      section(class="black")
+        h1 A job description
+
+      section(class="black")
+        h1 Automation
+
+      section(class="black")
+        h1 A department
+
+      section(class="red")
+        h1 DevOps is...
+
+      section(class="black")
+        h1 A movement
+
+      section(class="black")
+        h1 A philosophy
+
+      section
+        h1 The History
+
+      section
+        h1 There are two teams
+
+      section
+        h2(class='bullet') Developers
+        h3(class='bullet') Tasked with adding features
+
+      section
+        h2(class='bullet') Operations
+        h3(class='bullet') Tasked with keeping the system <strong><em>up</em></strong>
+
+      section
+        h1 Naturally opposed
+
+      section
+        img(src="images/fight.gif")
+
+      section(class="red")
+        h1 DevOps!
+
+      section
+        h1 DevOps
+        ul(class="outline, bullet")
+          li build one team, no siloing
+          li deliver more value
+          li allow people to experiment
+          li have more fun doing it
+
+      section
+        img(src="images/friendship.gif")
+
+      // - Goals
+      // - How I started thinking this way
+      //     - I worked as a production assistant at a film company
+      //       and I was building a website for a real estate company
+      //     - I developed something on MAMP, deployed to IIS and
+      //       CentOS (managed through Plesk) and everything blew up
+      //     - started at zivtech and started collaborating with the
+      //       dev team on running hosting and operations
+      section(class="red")
+        h1 CAMS
+
+      section(class="black")
+        h3(class="bullet") Culture
+        h3(class="bullet") Automation
+        h3(class="bullet") Measurement
+        h3(class="bullet") Sharing
+         - culture/communication
+             - A set of shared mental assumptions that guide
+               interpretation and action in an organization by
+               defining appropriate behavior or various situations
+               (Ravahi & Shultz, 2006
+               http://www.jstor.org/stable/20159775) - taken from
+               http://www.slideshare.net/matthewskelton/what-does-devops-culture-feel-like
+             - What are our assumptions?
+                 - Everything should be repeatable
+                 - If you make it, get it into version control
+                     - infrastructure is included
+                 - Everything gets reviewed
+                 - Open source whatever you can
+                 - Communicate (more on this in the sharing section)
+                 - develop locally
+         - automation
+             - repeatability
+             - infrastructure as code
+             - local development
+             - testing
+                 - anything is better than nothing
+                 - what's "good enough"
+                 - testing
+                     - behat
+                     - travis
+                     - jenkins
+                 - code quality (code sniffer)
+                     - link to the php jenkins template project
+                       http://jenkins-php.org/
+             - environments
+                 - installation profiles
+                 - synchronizing environments
+                 - local development
+             - deployment
+             - cron
+             - backups
+         - measurement
+             - the cloud
+             - monitoring
+                 - uptime
+                 - underlying services
+                 - rate of change
+                 - uptime
+                 - google analytics
+                 - graphite/libretto
+             - profiling
+                 - slow query logs
+                 - yslow
+                 - benchmarking
+                 - xhprof/xdebug
+         - sharing
+             - meetups
+             - communication
+             - responsiblity
+                 - everyone is on call
+             - email
+             - chat
+             - automated output
+             - build trust
+      //    - How it has worked for our team
+      //    - What you should do at your company
+      //    - outtro
+      //* The details
+
+
+      section(class="the-end")
+        h1(class="outline huge") The End
+
+    // build:js scripts/scripts.js
+    //script(src='bower_components/modernizr/modernizr.js')
+    script(src='bower_components/bespoke-fx/libs/modernizr/modernizr.custom.js')
+    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+    script(src='bower_components/bespoke-fx/dist/bespoke-fx.min.js')
+    script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+    script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='bower_components/zepto/zepto.min.js')
+    script(src='scripts/main.js')
+    // endbuild

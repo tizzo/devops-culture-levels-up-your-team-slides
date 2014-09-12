@@ -1,0 +1,51 @@
+article.bespoke-parent, article.bespoke-parent section.bespoke-slide
+#  background url('../images/yellow-and-blue.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+
+section.bespoke-slide.image, section.bespoke-slide.video
+  padding: 0
+
+  video, img
+    height: 100%
+    width: 100%
+
+
+section.bespoke-slide h2.yellow
+  text-shadow: 2px 2px black
+
+full-background(image)
+  background: url('../images/' + image)
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+
+body
+  background url('../images/seamless_paper_texture.png') repeat
+
+article.bespoke-parent section.bespoke-slide
+  background none
+  &.title
+    h1
+      font-size 150px
+    h2
+      margin-top 0.6em
+      font-size 50px
+  &.intro
+    full-background('powdered-toast-man.jpg')
+    h1
+      margin-top -.4em
+      color white
+    h2
+      margin-top 9em
+      color #ccc
+  &.red
+    background red
+    h1
+      font-size 150px
+      line-height: 1em
+      color white
+  &.black
+    background black
+    h1
+      font-size 90px
+      color white
