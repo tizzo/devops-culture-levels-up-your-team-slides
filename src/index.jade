@@ -99,70 +99,104 @@ html
       section(class="red")
         h1 CAMS
 
+      section
+        h2(class="bullet") Culture
+        h2(class="bullet") Automation
+        h2(class="bullet") Measurement
+        h2(class="bullet") Sharing
+
       section(class="black")
-        h3(class="bullet") Culture
-        h3(class="bullet") Automation
-        h3(class="bullet") Measurement
-        h3(class="bullet") Sharing
-         - culture/communication
-             - A set of shared mental assumptions that guide
-               interpretation and action in an organization by
-               defining appropriate behavior or various situations
-               (Ravahi & Shultz, 2006
-               http://www.jstor.org/stable/20159775) - taken from
-               http://www.slideshare.net/matthewskelton/what-does-devops-culture-feel-like
-             - What are our assumptions?
-                 - Everything should be repeatable
-                 - If you make it, get it into version control
-                     - infrastructure is included
-                 - Everything gets reviewed
-                 - Open source whatever you can
-                 - Communicate (more on this in the sharing section)
-                 - develop locally
-         - automation
-             - repeatability
-             - infrastructure as code
-             - local development
-             - testing
-                 - anything is better than nothing
-                 - what's "good enough"
-                 - testing
-                     - behat
-                     - travis
-                     - jenkins
-                 - code quality (code sniffer)
-                     - link to the php jenkins template project
-                       http://jenkins-php.org/
-             - environments
-                 - installation profiles
-                 - synchronizing environments
-                 - local development
-             - deployment
-             - cron
-             - backups
-         - measurement
-             - the cloud
-             - monitoring
-                 - uptime
-                 - underlying services
-                 - rate of change
-                 - uptime
-                 - google analytics
-                 - graphite/libretto
-             - profiling
-                 - slow query logs
-                 - yslow
-                 - benchmarking
-                 - xhprof/xdebug
-         - sharing
-             - meetups
-             - communication
-             - responsiblity
-                 - everyone is on call
-             - email
-             - chat
-             - automated output
-             - build trust
+        h1 Culture
+
+      section
+        h2 A set of shared mental assumptions that guide interpretation and action in an organization by defining appropriate behavior or various situations
+        ul(class="bullet")
+          li from (Ravahi & Shultz, 2006 http://www.jstor.org/stable/20159775)
+          li via http://www.slideshare.net/matthewskelton/what-does-devops-culture-feel-like
+
+       section
+        h2 Our Cultural Assumptions
+        ul(class="bullet")
+          li Everything should be repeatable
+          li Develop locally, deploy for integration
+          li If it matters, it is in version control
+          li Everything gets reviewed
+          li Open source whatever you can
+          li Communicate (more on this in the sharing section)
+
+      section(class="black")
+        h1 Automation
+
+      section
+        h1 Automation
+        ul(class="bullet")
+          li Infrastructure as code
+          li Testing
+          li Environments
+          li Deployment
+          li Cron
+          li Backups
+
+      section
+        h1 Infrastructure as code
+
+      section
+        h1 Testing
+
+      secton
+        h1 Testing Tools
+        ul(class='bullet')
+         li Behat
+         li Casper
+         li Travis
+         li Jenkins
+           ul
+             li http://jenkins-php.org/
+         li Code quality (coder/code sniffer)
+
+      section
+        h1 Environments
+        ul(class="bullet")
+          li Have at least 3
+          li ...but maybe <em>N</em>
+
+      section
+        h1 Automating Environments
+        ul(class="bullet")
+         li Installation profiles
+         li Synchronizing environments
+         li Local development
+         li Deployment
+         li Cron
+         li Backups
+
+      section(class="black")
+        h1 Measurement
+       //    - measurement
+       //        - the cloud
+       //        - monitoring
+       //            - uptime
+       //            - underlying services
+       //            - rate of change
+       //            - uptime
+       //            - google analytics
+       //            - graphite/libretto
+       //        - profiling
+       //            - slow query logs
+       //            - yslow
+       //            - benchmarking
+       //            - xhprof/xdebug
+      section(class="black")
+        h1 Sharing
+       //    - sharing
+       //        - meetups
+       //        - communication
+       //        - responsiblity
+       //            - everyone is on call
+       //        - email
+       //        - chat
+       //        - automated output
+      //     - build trust
       //    - How it has worked for our team
       //    - What you should do at your company
       //    - outtro
