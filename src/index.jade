@@ -22,7 +22,6 @@ html
         h1 DevOps
         h2 Level up your team
 
-      //section(data-bespoke-hash='about-me', data-bespoke-fx-transition="drop", data-bespoke-fx-direction="vertical")
       section(data-bespoke-hash='about-me', class="intro")
         h1(class="outline") Hi! I'm Howard
         h2(class='flipped') You may know me as @tizzo
@@ -167,8 +166,7 @@ html
          li Casper
          li Travis
          li Jenkins
-           ul
-             li http://jenkins-php.org/
+         li http://jenkins-php.org/
          li Code quality (coder/code sniffer)
 
       section
@@ -191,15 +189,13 @@ html
       section
         h1 Automating Environments
         ul(class="bullet")
-         li Installation profiles
-         li Synchronizing environments
-           ul
-             li Drush
-             li Drush Fetcher
-         li Deployment
-          ul
-            li Features
-            li Update hooks
+         li <strong>Installation profiles</strong>
+         li <strong>Synchronizing environments</strong>
+         li    - Drush
+         li    - Drush Fetcher
+         li <strong>Deployment</strong>
+         li    - Features
+         li    - Update hooks
 
       section
         h1 Cron
@@ -216,8 +212,14 @@ html
           li Uptime
           li Underlying services
           li Rate of change
-          li Uptime
+
+      section
+        h1 Tools
+        ul(class='bullet')
           li Google analytics
+          li Pingdom
+          li Sensu / Nagios
+          li Logstash / Logg.ly
           li Graphite/libretto
 
       section
@@ -236,12 +238,14 @@ html
         ul(class='bullet')
           li Responsiblity (everyone is on call)
           li Meetups
+          li Lunch and Lears
           li Communication
           li Email
           li Chat
           li Automated feedback
 
-      section(class="red")
+      section(class="red  start-small")
+        h1 Start small and keep adding
 
       section
         img(src="images/without-devops-tools.gif")
