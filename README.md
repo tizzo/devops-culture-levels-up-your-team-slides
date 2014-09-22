@@ -1,4 +1,4 @@
-# Getting more out of your logs
+# How DevOps culture can raise your team to the next level
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
 
 ## View slides locally
