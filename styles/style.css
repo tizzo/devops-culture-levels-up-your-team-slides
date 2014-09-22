@@ -1,0 +1,76 @@
+article.bespoke-parent,
+article.bespoke-parent section.bespoke-slide,
+#  background url('../images/yellow-and-blue.jpg') {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+section.bespoke-slide.image,
+section.bespoke-slide.video {
+  padding: 0;
+}
+section.bespoke-slide.image video,
+section.bespoke-slide.video video,
+section.bespoke-slide.image img,
+section.bespoke-slide.video img {
+  height: 100%;
+  width: 100%;
+}
+section.bespoke-slide h2.yellow {
+  text-shadow: 2px 2px #000;
+}
+body {
+  background: url("../images/seamless_paper_texture.png") repeat;
+}
+ul li {
+  font-size: 20px;
+}
+article.bespoke-parent section.bespoke-slide {
+  background: none;
+}
+article.bespoke-parent section.bespoke-slide.title h1 {
+  font-size: 150px;
+}
+article.bespoke-parent section.bespoke-slide.title h2 {
+  margin-top: 0.6em;
+  font-size: 50px;
+}
+article.bespoke-parent section.bespoke-slide.intro {
+  background: url("../images/powdered-toast-man.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+article.bespoke-parent section.bespoke-slide.intro h1 {
+  margin-top: -0.4em;
+  color: #fff;
+}
+article.bespoke-parent section.bespoke-slide.intro h2 {
+  margin-top: 9em;
+  color: #ccc;
+}
+article.bespoke-parent section.bespoke-slide.red {
+  background: #f00;
+}
+article.bespoke-parent section.bespoke-slide.red h1 {
+  font-size: 150px;
+  line-height: 1em;
+  color: #fff;
+}
+article.bespoke-parent section.bespoke-slide.start-small.red h1 {
+  font-size: 100px;
+}
+article.bespoke-parent section.bespoke-slide.black {
+  background: #000;
+}
+article.bespoke-parent section.bespoke-slide.black h1 {
+  font-size: 90px;
+  color: #fff;
+}
+article.bespoke-parent section.bespoke-slide.the-end {
+  background: url("../images/sunset.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+article.bespoke-parent section.bespoke-slide.the-end h1 {
+  margin-top: 5em;
+}

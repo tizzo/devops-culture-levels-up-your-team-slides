@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Getting more out of your logs</title>
+    <!-- build:css styles/styles.css-->
+    <link rel="stylesheet" type="text/css" href="bower_components/prism/themes/prism-tomorrow.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!--link(rel='stylesheet', type='text/css', href='bower_components/bespoke-fx/src/main.css')-->
+    <!--link(rel='stylesheet', type='text/css', href='bower_components/bespoke-fx/src/animations.css')-->
+    <!-- endbuild-->
+  </head>
+  <body>
+    <article>
+      <section data-bespoke-hash="title" class="title">
+        <h1>DevOps</h1>
+        <h2>Level up your team</h2>
+      </section>
+      <section data-bespoke-hash="about-me" class="intro">
+        <h1 class="outline">Hi! I'm Howard</h1>
+        <h2 class="flipped">You may know me as @tizzo</h2>
+      </section>
+      <section class="zivtech"><img src="images/zivtech.png"></section>
+      <section class="red">
+        <h1>DevOps</h1>
+      </section>
+      <section class="red">
+        <h1>Is not...</h1>
+      </section>
+      <section class="black">
+        <h1>A job description</h1>
+      </section>
+      <section class="black">
+        <h1>Automation</h1>
+      </section>
+      <section class="black">
+        <h1>A department</h1>
+      </section>
+      <section class="red">
+        <h1>DevOps is...</h1>
+      </section>
+      <section class="black">
+        <h1>A movement</h1>
+      </section>
+      <section class="black">
+        <h1>A philosophy</h1>
+      </section>
+      <section>
+        <h1>The History</h1>
+      </section>
+      <section>
+        <h1>There are two teams</h1>
+      </section>
+      <section>
+        <h2 class="bullet">Developers</h2>
+        <h3 class="bullet">Tasked with adding features</h3>
+      </section>
+      <section>
+        <h2 class="bullet">Operations</h2>
+        <h3 class="bullet">Tasked with keeping the system <strong><em>up</em></strong></h3>
+      </section>
+      <section>
+        <h1>Naturally opposed</h1>
+      </section>
+      <section><img src="images/fight.gif"></section>
+      <section class="red">
+        <h1>DevOps!</h1>
+      </section>
+      <section>
+        <h1>DevOps</h1>
+        <ul class="outline, bullet">
+          <li>build one team, no siloing</li>
+          <li>deliver more value</li>
+          <li>allow people to experiment</li>
+          <li>have more fun doing it</li>
+        </ul>
+      </section>
+      <section><img src="images/friendship.gif"></section>
+      <!-- - Goals-->
+      <!-- - How I started thinking this way-->
+      <!--     - I worked as a production assistant at a film company-->
+      <!--       and I was building a website for a real estate company-->
+      <!--     - I developed something on MAMP, deployed to IIS and-->
+      <!--       CentOS (managed through Plesk) and everything blew up-->
+      <!--     - started at zivtech and started collaborating with the-->
+      <!--       dev team on running hosting and operations-->
+      <section class="red">
+        <h1>CAMS</h1>
+      </section>
+      <section>
+        <h2 class="bullet">Culture</h2>
+        <h2 class="bullet">Automation</h2>
+        <h2 class="bullet">Measurement</h2>
+        <h2 class="bullet">Sharing</h2>
+      </section>
+      <section class="black">
+        <h1>Culture</h1>
+      </section>
+      <section>
+        <h2>A set of shared mental assumptions that guide interpretation and action in an organization by defining appropriate behavior or various situations</h2>
+        <ul class="bullet">
+          <li>from (Ravahi & Shultz, 2006 http://www.jstor.org/stable/20159775)</li>
+          <li>via http://www.slideshare.net/matthewskelton/what-does-devops-culture-feel-like</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Cultural Assumptions</h2>
+        <ul class="bullet">
+          <li>Everything should be repeatable</li>
+          <li>Develop locally, deploy for integration</li>
+          <li>If it matters, it is in version control</li>
+          <li>Everything gets reviewed</li>
+          <li>Open source whatever you can</li>
+          <li>Communicate (more on this in the sharing section)</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Code review</h1>
+      </section>
+      <section>
+        <h1>Testing your own code</h1><img src="images/test-own-code.gif">
+      </section>
+      <section>
+        <h1>Others testing your code</h1><img src="images/code-review.gif">
+      </section>
+      <section class="black">
+        <h1>Automation</h1>
+      </section>
+      <section>
+        <h1>Automation</h1>
+        <ul class="bullet">
+          <li>Infrastructure as code</li>
+          <li>Testing</li>
+          <li>Environments</li>
+          <li>Deployment</li>
+          <li>Cron</li>
+          <li>Backups</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Infrastructure as code</h1>
+      </section>
+      <section>
+        <h1>Infrastructure as code</h1>
+        <ul class="bullet">
+          <li>Virtualization</li>
+          <li>A golden image</li>
+          <li>Puppet / Chef / Ansible</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Testing</h1>
+      </section>
+      <secton>
+        <h1>Testing Tools</h1>
+        <ul class="bullet">
+          <li>Behat</li>
+          <li>Casper</li>
+          <li>Travis</li>
+          <li>Jenkins</li>
+          <li>http://jenkins-php.org/</li>
+          <li>Code quality (coder/code sniffer)</li>
+        </ul>
+      </secton>
+      <section>
+        <h2>Stop rolling patches <em>after</em> it breaks...</h2><img src="images/patch.gif">
+      </section>
+      <section>
+        <h2>Stop rolling patches <em>after</em> it breaks...</h2><img src="images/patch-punchline.gif">
+      </section>
+      <section>
+        <h3>And hit the ground running every time...</h3><img src="images/continuous-delivery.gif">
+      </section>
+      <section>
+        <h1>Environments</h1>
+        <ul class="bullet">
+          <li>Have at least 3</li>
+          <li>...but maybe <em>N</em></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Automating Environments</h1>
+        <ul class="bullet">
+          <li><strong>Installation profiles</strong></li>
+          <li><strong>Synchronizing environments</strong></li>
+          <li>   - Drush</li>
+          <li>   - Drush Fetcher</li>
+          <li><strong>Deployment</strong></li>
+          <li>   - Features</li>
+          <li>   - Update hooks</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Cron</h1>
+      </section>
+      <section>
+        <h1>Backups</h1>
+      </section>
+      <section class="black">
+        <h1>Measurement</h1>
+      </section>
+      <section>
+        <h1>Montioring</h1>
+        <ul class="bullet">
+          <li>Uptime</li>
+          <li>Underlying services</li>
+          <li>Rate of change</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Tools</h1>
+        <ul class="bullet">
+          <li>Google analytics</li>
+          <li>Pingdom</li>
+          <li>Sensu / Nagios</li>
+          <li>Logstash / Logg.ly</li>
+          <li>Graphite/libretto</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Profiling</h1>
+        <ul class="bullet">
+          <li>Slow query logs</li>
+          <li>Yslow</li>
+          <li>Benchmarking</li>
+          <li>Xhprof/xdebug</li>
+        </ul>
+      </section>
+      <section class="black">
+        <h1>Sharing</h1>
+      </section>
+      <section>
+        <h1>Sharing</h1>
+        <ul class="bullet">
+          <li>Responsiblity (everyone is on call)</li>
+          <li>Meetups</li>
+          <li>Lunch and Lears</li>
+          <li>Communication</li>
+          <li>Email</li>
+          <li>Chat</li>
+          <li>Automated feedback</li>
+        </ul>
+      </section>
+      <section class="red start-small">
+        <h1>Start small and keep adding</h1>
+      </section>
+      <section><img src="images/without-devops-tools.gif">
+        <h3>Without the right tools and methods</h3>
+      </section>
+      <section><img src="images/workaround.gif">
+        <h3>You can work around it</h3>
+      </section>
+      <section><img src="images/the-cloud.gif">
+        <h3>But you'll never ride thorugh the sky on a unicorn</h3>
+      </section>
+      <section class="the-end">
+        <h1 class="outline huge">The End</h1>
+      </section>
+    </article>
+    <!-- build:js scripts/scripts.js-->
+    <!--script(src='bower_components/modernizr/modernizr.js')-->
+    <script src="bower_components/bespoke-fx/libs/modernizr/modernizr.custom.js"></script>
+    <script src="bower_components/bespoke.js/dist/bespoke.min.js"></script>
+    <script src="bower_components/bespoke-fx/dist/bespoke-fx.min.js"></script>
+    <script src="bower_components/bespoke-keys/dist/bespoke-keys.min.js"></script>
+    <script src="bower_components/bespoke-touch/dist/bespoke-touch.min.js"></script>
+    <script src="bower_components/bespoke-bullets/dist/bespoke-bullets.min.js"></script>
+    <script src="bower_components/bespoke-scale/dist/bespoke-scale.min.js"></script>
+    <script src="bower_components/bespoke-hash/dist/bespoke-hash.min.js"></script>
+    <script src="bower_components/prism/prism.js"></script>
+    <script src="bower_components/zepto/zepto.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>
