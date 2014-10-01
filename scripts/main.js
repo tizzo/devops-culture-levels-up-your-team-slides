@@ -13,6 +13,8 @@ bespoke.from('article', {
 });
 
 deck.on('activate', function(event) {
+  $image = $('img', event.slide);
+  $image.attr('src', $image.attr('src') + '?start=' + Math.round(Math.random()*1000));
   $video = $('video', event.slide);
   if ($video[0]) {
     $video[0].play();
