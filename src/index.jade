@@ -18,6 +18,8 @@ html
 
     article
 
+      section(class="start")
+
       section(data-bespoke-hash='title', class="title")
         h1 DevOps
         h2 Level up your team
@@ -79,10 +81,10 @@ html
       section
         h1 DevOps
         ul(class="outline, bullet")
-          li build one team, no siloing
-          li deliver more value
-          li allow people to experiment
-          li have more fun doing it
+          li Build one team, no siloing
+          li Deliver more value
+          li Enable experimentation
+          li Have more fun doing it
 
       section
         img(src="images/friendship.gif")
@@ -114,7 +116,7 @@ html
           li via http://www.slideshare.net/matthewskelton/what-does-devops-culture-feel-like
 
        section
-        h2 Our Cultural Assumptions
+        h2 Zivtech's Cultural Assumptions
         ul(class="bullet")
           li Everything should be repeatable
           li Develop locally, deploy for integration
@@ -124,7 +126,8 @@ html
           li Communicate (more on this in the sharing section)
 
       section
-        h1 Code review
+        h1(class="outline") Code review
+        h2(class="outline") The single biggest thing you can do to improve your team
 
       section
         h1 Testing your own code
@@ -191,6 +194,7 @@ html
         ul(class="bullet")
          li <strong>Installation profiles</strong>
          li <strong>Synchronizing environments</strong>
+         li    - Hosting provider / devshop
          li    - Drush
          li    - Drush Fetcher
          li <strong>Deployment</strong>
@@ -259,8 +263,15 @@ html
         img(src="images/the-cloud.gif")
         h3 But you'll never ride thorugh the sky on a unicorn
 
+      section
+        h1 Gifs thanks to
+        h2 <a href="http://devopsreactions.tumblr.com">http://devopsreactions.tumblr.com</a>
+        img(src="images/pipeline.gif")
+
       section(class="the-end")
         h1(class="outline huge") The End
+
+      section(class="end-title")
 
     // build:js scripts/scripts.js
     //script(src='bower_components/modernizr/modernizr.js')
