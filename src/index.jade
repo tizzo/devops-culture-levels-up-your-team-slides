@@ -160,12 +160,12 @@ html
       secton
         h1 Testing Tools
         ul(class='bullet')
-         li Behat
-         li Casper
-         li Travis
-         li Jenkins
-         li http://jenkins-php.org/
-         li Code quality (coder/code sniffer)
+          li Behat
+          li Casper
+          li Travis
+          li Jenkins
+          li http://jenkins-php.org/
+          li Code quality (coder/code sniffer)
 
       section
         h2 Stop rolling patches <em>after</em> it breaks...
@@ -183,6 +183,15 @@ html
         ul(class="bullet")
           li Have at least 3
           li ...but maybe <em>N</em>
+
+      section
+        img(src="images/dev-staging-production.png" width="95%")
+        p Image courtesy of Mike Gifford
+        p Open Concept
+        p
+          a(href="https://openconcept.ca/blog/mgifford/flow-content-code")
+            The Flow of Content and Code
+
 
       section
         h1 Automating Environments
@@ -219,15 +228,20 @@ html
           li Pingdom
           li Sensu / Nagios
           li Logstash / Logg.ly
-          li Graphite/libretto
+          li InfluxDB & Graphana / Librato.com
 
       section
         h1 Profiling
         ul(class='bullet')
-          li Slow query logs
+          li Xhprof / xdebug
+          li MySQL Slow query logs
           li Yslow
           li Benchmarking
-          li Xhprof/xdebug
+            ul
+              li ab
+              li siege
+              li jmeter
+              li bees with machine gunes
 
       section(class="black")
         h1 Sharing
@@ -237,7 +251,7 @@ html
         ul(class='bullet')
           li Responsiblity (everyone is on call)
           li Meetups
-          li Lunch and Lears
+          li Lunch and Learns
           li Communication
           li Email
           li Chat
@@ -252,11 +266,11 @@ html
 
       section
         img(src="images/workaround.gif")
-        h3 You can work around it
+        h3 You can work around the tough bits
 
       section
         img(src="images/the-cloud.gif")
-        h3 But you'll never ride thorugh the sky on a unicorn
+        h3 But you'll never get to nirvana
 
       section
         h1 Gifs thanks to
